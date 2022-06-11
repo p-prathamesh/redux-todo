@@ -62,13 +62,13 @@ section {
 }
 
 .today {
-  background: #efefee;
+  background: #ee3000;
   border-radius: 50%;
 }
 
 .selectedDay {
-  color: white;
-  background: #3366ff;
+  color: rgb(0, 0, 0);
+  background: #00840b;
   border-radius: 50%;
 }
 
