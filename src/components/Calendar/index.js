@@ -10,6 +10,8 @@ import {
   isSameDay,
   subMonths,
   addMonths,
+  subYears,
+  addYears,
   getYear,
 } from "date-fns";
 import BackImg from "../../assets/previous.png";
@@ -116,14 +118,14 @@ export default function CalendarComponent() {
           src={BackImg}
           alt="BackImg"
           width={15}
-          onClick={() => setYear(year - 1)}
+          onClick={() => setActiveDate(subYears(activeDate, 1))}
         />
         <span className="year-f">{year}</span>
         <img
           src={ForwordImg}
           alt="BackImg"
           width={15}
-          onClick={() => setYear(year + 1)}
+          onClick={() => setActiveDate(addYears(activeDate, 1))}
         />
       </div>
       <div className="mt-3">

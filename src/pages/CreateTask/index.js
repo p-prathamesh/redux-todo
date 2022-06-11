@@ -34,7 +34,7 @@ function CreateTask() {
           <Input fetchInput={handleChange} placeholder="Enter task name" />
         </div>
       </div>
-      <div className="row">
+      <div className="row mt-2">
         <div className="col-8 text-white">
           <TimeInput getTime={handleGetTime} time={selectedTime}/>
         </div>
@@ -42,7 +42,7 @@ function CreateTask() {
           <img src={CalendarImg} alt="Calendar" width={30} height={30} className="calendar" />
         </div>
       </div>
-      <div className="row">
+      <div className="row mt-2">
         <div className="col-12 text-white">
         <CalendarComponent />
         </div>
