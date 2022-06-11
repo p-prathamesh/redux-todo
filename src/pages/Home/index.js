@@ -5,10 +5,7 @@ import NavBar from "../../components/Navbar";
 import Input from "../../components/Input";
 
 function Home() {
-  const array = [{
-    id:1,
-    name: "Replace color-adjust to print-color-adjust"
-  }]
+  const array = []
 
   const handleChange = (val) => {
     console.log(val)
